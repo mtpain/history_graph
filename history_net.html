@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <title>History Graph</title>
+
+  <script type="text/javascript" src="vis.js"></script>
+
+  <style type="text/css">
+    #mynetwork {
+      width: 800px;
+      height: 800px;
+      border: 1px solid lightgray;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Historical Network for Psychology</h1>
+  
+  <p>First pass effort at using <a href="http://visjs.org/">vis.js</a> to display historical patterns using a visual graph.</p>
+
+  <p>I hope to improve this with your help!   I'm not at all happy with the current look of it.   Chronology should somehow be incorproated with older figures more to the left and newer more to the right. Links currenty just represent "influence" in a generic way, based on wikipedia.  It would be nice to incorporate more objective links between historical figures (e.g. advisor relations, and co-citation counts) and be able to use a drop-down box to choose how these links should be displayed.</p>
+
+  <p>The simulation mode is just there to experiment with different graph representation styles for now.  It also shows you some of the kinds of interactions avaialable to you.  To get rid of it comment out the line that says "configurePhysics:true"</p>
+
+  <hr>
+  
+  <div id="mynetwork"></div>
+
+</body>
+
+<!-- How to incorproate years -->
+<!-- Automate links -->
+<!-- Link to database? -->
+<script type="text/javascript">
+  // create an array with nodes
+  var nodes = [
+    {id: 'kant', label: 'Kant'},
+    {id: 'darwin', label: 'Darwin'},
+    {id: 'herbart', label: 'Herbart'},
+    {id: 'lotze', label: 'Lotze'},
+    {id: 'fechner', label: 'Fechner'},
+    {id: 'weber', label: 'Weber'},
+    {id: 'helmholtz', label: 'Helmholtz'},
+    {id: 'james', label: 'James'},
+    {id: 'mach', label: 'Mach'},
+    {id: 'brentano', label: 'Brentano'},
+    {id: 'husserl', label: 'Husserl'},
+    {id: 'wundt', label: 'Wundt'},
+    {id: 'stumpf', label: 'Stumpf'},
+    {id: 'gestalt', label: 'Gestalt'},
+    {id: 'kulpe', label: 'Kulpe'}, // How to put umlaut on u?
+    {id: 'titchener', label: 'Titchener'},
+    {id: 'freud', label: 'Freud'},
+    {id: 'hull', label: 'Hull'},
+    {id: 'spence', label: 'Spence'},
+    {id: 'watson', label: 'Watson'},
+    {id: 'skinner', label: 'Skinner'},
+    {id: 'pavlov', label: 'Pavlov'},
+  ];
+
+  var edges = [
+    {from: 'kant', to: 'herbart'},
+    {from: 'helmholtz', to: 'wundt'},
+    {from: 'weber', to: 'fechner'},
+    {from: 'mach', to: 'fechner'},
+    {from: 'wundt', to: 'kulpe'},
+    {from: 'brentano', to: 'freud'},
+    {from: 'brentano', to: 'husserl'},
+    {from: 'herbart', to: 'husserl'},
+    {from: 'herbart', to: 'lotze'},
+    {from: 'fechner', to: 'lotze'},
+    {from: 'lotze', to: 'stumpf'},
+    {from: 'brentano', to: 'stumpf'},
+    {from: 'weber', to: 'stumpf'},
+    {from: 'fechner', to: 'stumpf'},
+    {from: 'wundt', to: 'titchener'},
+    {from: 'kulpe', to: 'gestalt'},
+    {from: 'stumpf', to: 'gestalt'},
+    {from: 'mach', to: 'james'},
+    {from: 'stumpf', to: 'james'},
+    {from: 'hull', to: 'spence'},
+    {from: 'pavlov', to: 'hull'},
+    {from: 'pavlov', to: 'watson'},
+    {from: 'watson', to: 'hull'}, 
+    {from: 'watson', to: 'skinner'}, 
+    {from: 'darwin', to: 'skinner'}, 
+    {from: 'darwin', to: 'freud'}, 
+  ];
+
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+
+  var options = {
+    configurePhysics:true,
+    edges: {
+      style: 'arrow'
+    }
+  };
+
+  var network = new vis.Network(container, data, options);
+</script>
+
+
+</html>
