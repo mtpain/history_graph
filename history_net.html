@@ -35,7 +35,7 @@
 <!-- Show images -->
 <!-- Double click to expand to a page or something -->
 <!-- Some way of showing groups, like Gestaltists or Freudians -->
-<!-- Multiple link types with combo box to select-->
+<!-- Multiple link types (including citations, attacks, ...) with combo box to select-->
 <!-- Link to database? -->
 
 <script type="text/javascript">
@@ -63,6 +63,8 @@
     {id: 'watson', label: 'Watson'},
     {id: 'skinner', label: 'Skinner'},
     {id: 'pavlov', label: 'Pavlov'},
+    {id: 'turing', label: 'Turing'},
+    {id: 'chomsky', label: 'Chomsky'},
   ];
 
   var edges = [
@@ -92,6 +94,7 @@
     {from: 'watson', to: 'skinner'}, 
     {from: 'darwin', to: 'skinner'}, 
     {from: 'darwin', to: 'freud'}, 
+    {from: 'skinner', to: 'chomsky'}, 
   ];
 
   var container = document.getElementById('mynetwork');
