@@ -113,6 +113,9 @@ var result = {
         }, {
             id: 'wiener',
             label: 'Wiener'
+        }, {
+            id: 'spivey',
+            label: 'Spivey'
         }
     ],
 
