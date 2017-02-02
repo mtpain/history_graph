@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>History Graph</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="history_net.css">
+</head>
+
+<body>
+
+    <div class="container">
+      <h1>Historical Network for Psychology</h1>
+      
+      <p>First pass effort at using <a href="http://visjs.org/">vis.js</a> to display historical patterns using a visual graph.</p>
+      
+      <p>I hope to improve this with your help! I'm not at all happy with the current look of it. Chronology should somehow be incorproated with older figures more to the left and newer more to the right. Links currenty just represent "influence" in a generic way, based on wikipedia. It would be nice to incorporate more objective links between historical figures (e.g. advisor relations, and co-citation counts) and be able to use a drop-down box to choose how these links should be displayed.</p>
+      
+      <div id="mynetwork"></div>
+      
+      <hr>
+      
+      <h1>Todos</h1>
+      <ul>
+          <li>Incorporate years so that it flows roughly left to right</li>
+          <li>Add more fields: geography, universities, year of Phd, dates of birth and death</li>
+          <li>Some kind of database structure</li>
+          <li>Explicit link types that can be selected.</li>
+          <ul>
+              <li>General influence</li>
+              <li>Citations</li>
+              <li>Advisor</li>
+              <li>Critic</li>
+          </ul>
+          <li>Ability to associate information with links.</li>
+          <li>Group structure: Gestaltists, Freudians, Behavorists, Neo-Behaviorist, mathematical psyche, philosophy, social psychologists, clinicians</li>
+          <li>Show Images and other information</li>
+          <li>Click to expand</li>
+          <li>Also useful: <a href="http://academictree.org/psych/">The psychology family tree</a>. Maybe able to mine this....Also see <a href="http://neurotree.org/neurotree/">neurotree</a> </li>
+      </ul>
+      
+      <h1>Control panel</h1>
+      <p>There is a simulation mode that allows you to experiment with different graph representation styles. To reveal or hide it comment or uncomment the line in the source that says "configurePhysics:true"</p>
+      
+      <hr>
+      
+    </div>
+</body>
+
+<script type="text/javascript" src="vis.js"></script>
+<script src="history_net_data.js"></script>
+<script type="text/javascript">
+var container = document.getElementById('mynetwork');
+
+var data = {
+    nodes: result.nodes,
+    edges: result.edges
+};
+
+var options = {
+    // configurePhysics:true,
+    edges: {
+        style: 'arrow'
+    }
+};
+var network = new vis.Network(container, data, options);
+</script>
+
+</html>
