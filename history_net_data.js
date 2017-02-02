@@ -116,6 +116,9 @@ var result = {
         }, {
             id: 'spivey',
             label: 'Spivey'
+        }, {
+            id: 'berlyne',
+            label: 'Berlyne'
         }
     ],
 
@@ -194,6 +197,9 @@ var result = {
     }, {
         from: 'watson',
         to: 'hull'
+    }, {
+        from: 'hull',
+        to: 'berlyne'
     }, {
         from: 'watson',
         to: 'skinner'
