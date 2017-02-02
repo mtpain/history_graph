@@ -47,9 +47,9 @@ var result = {
             id: 'gestalt',
             label: 'Gestalt'
         }, {
-            id: 'kulpe',
-            label: 'Kulpe'
-        }, // How to put umlaut on u?
+            id: 'külpe',
+            label: 'Külpe'
+        },
         {
             id: 'titchener',
             label: 'Titchener'
