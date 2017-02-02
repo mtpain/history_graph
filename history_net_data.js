@@ -47,8 +47,8 @@ var result = {
             id: 'gestalt',
             label: 'Gestalt'
         }, {
-            id: 'külpe',
-            label: 'Külpe'
+            id: 'kulpe',
+            label: 'K&#252lpe'
         },
         {
             id: 'titchener',
