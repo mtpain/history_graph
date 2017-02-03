@@ -10,6 +10,9 @@
             "id": "darwin",
             "label": "Darwin"
         }, {
+            "id": "gibbs",
+            "label": "Gibbs"
+        }, {
             "id": "herbart",
             "label": "Herbart"
         }, {
@@ -230,6 +233,9 @@
         "from": "frege",
         "to": "russell"
     }, {
+        "from": "gibbs",
+        "to": "spivey"
+    },{
         "from": "frege",
         "to": "wittgenstein"
     }, {
