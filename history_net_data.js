@@ -49,6 +49,9 @@ var result = {
         }, {
             id: "kulpe",
             label: "Külpe"
+        }, {
+            id: "boas",
+            label: "Boas"
         },
         {
             id: "titchener",
@@ -137,6 +140,9 @@ var result = {
     }, {
         from: "wundt",
         to: "kulpe"
+    }, {
+        from: "wundt",
+        to: "Boas"
     }, {
         from: "brentano",
         to: "freud"
