@@ -1,8 +1,6 @@
 data = {
     "nodes": [
-        {   "id": "desaussure",
-            "label": "de Saussure"
-        }, {
+        {
             "id": "cantor",
             "label": "Cantor"
         }, {
@@ -68,8 +66,8 @@ data = {
         }, {
             "id": "kulpe",
             "label": "Külpe"
-        }, {
-            "id": "de saussure",
+        },{
+            "id": "desaussure",
             "label": "de Saussure"
         }, {
             "id": "titchener",
