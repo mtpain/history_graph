@@ -1,4 +1,4 @@
-{
+data = {
     "nodes": [
         {   "id": "cantor",
             "label": "Cantor"
