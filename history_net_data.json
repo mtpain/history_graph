@@ -10,9 +10,15 @@
             "id": "darwin",
             "label": "Darwin"
         }, {
+<<<<<<< Updated upstream
             "id": "gibbs",
             "label": "Gibbs"
         }, {
+=======
+            "id": "Boas",
+            "label": "Boas"
+        },{
+>>>>>>> Stashed changes
             "id": "herbart",
             "label": "Herbart"
         }, {
@@ -145,6 +151,9 @@
     }, {
         "from": "wundt",
         "to": "kulpe"
+    }, {
+        "from": "wundt",
+        "to": "Boas"
     }, {
         "from": "brentano",
         "to": "freud"
