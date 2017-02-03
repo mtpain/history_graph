@@ -4,6 +4,9 @@
             "id": "kant",
             "label": "Kant"
         }, {
+            "id": "hilbert",
+            "label": "Hilbert"
+        }, {
             "id": "darwin",
             "label": "Darwin"
         }, {
@@ -127,6 +130,9 @@
     }, {
         "from": "helmholtz",
         "to": "wundt"
+    }, {
+        "from": "hilbert",
+        "to": "husserl"
     }, {
         "from": "weber",
         "to": "fechner"
