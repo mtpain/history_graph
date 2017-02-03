@@ -1,12 +1,26 @@
 {
     "nodes": [
-        {
+        {   "id": "cantor",
+            "label": "Cantor"
+        }, {
             "id": "kant",
             "label": "Kant"
+        }, {
+            "id": "hilbert",
+            "label": "Hilbert"
         }, {
             "id": "darwin",
             "label": "Darwin"
         }, {
+<<<<<<< Updated upstream
+            "id": "gibbs",
+            "label": "Gibbs"
+        }, {
+=======
+            "id": "Boas",
+            "label": "Boas"
+        },{
+>>>>>>> Stashed changes
             "id": "herbart",
             "label": "Herbart"
         }, {
@@ -125,8 +139,17 @@
         "from": "kant",
         "to": "herbart"
     }, {
+        "from": "cantor",
+        "to": "russell"
+    }, {
+        "from": "cantor",
+        "to": "hilbert"
+    }, {
         "from": "helmholtz",
         "to": "wundt"
+    }, {
+        "from": "hilbert",
+        "to": "husserl"
     }, {
         "from": "weber",
         "to": "fechner"
@@ -136,6 +159,9 @@
     }, {
         "from": "wundt",
         "to": "kulpe"
+    }, {
+        "from": "wundt",
+        "to": "Boas"
     }, {
         "from": "brentano",
         "to": "freud"
@@ -224,6 +250,9 @@
         "from": "frege",
         "to": "russell"
     }, {
+        "from": "gibbs",
+        "to": "spivey"
+    },{
         "from": "frege",
         "to": "wittgenstein"
     }, {
