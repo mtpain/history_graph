@@ -161,7 +161,7 @@ data = {
         "to": "wundt"
     }, {
         "from": "boltzmann",
-        "to": "Prigogine"
+        "to": "prigogine"
     }, {
         "from": "boltzmann",
         "to": "helmholtz"
