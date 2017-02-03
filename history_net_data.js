@@ -139,6 +139,9 @@ data = {
             "id": "spivey",
             "label": "Spivey"
         }, {
+            "id": "prigogine",
+            "label": "prigogine"
+        }, {
             "id": "berlyne",
             "label": "Berlyne"
         }
@@ -156,6 +159,9 @@ data = {
     }, {
         "from": "helmholtz",
         "to": "wundt"
+    }, {
+        "from": "boltzmann",
+        "to": "prigogine"
     }, {
         "from": "boltzmann",
         "to": "helmholtz"
