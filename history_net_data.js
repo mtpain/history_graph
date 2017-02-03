@@ -1,6 +1,6 @@
 data = {
     "nodes": [
-        {   "id": "de saussure",
+        {   "id": "desaussure",
             "label": "de Saussure"
         }, {
             "id": "cantor",
