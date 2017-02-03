@@ -1,13 +1,13 @@
-data = {
+{
     "nodes": [
-        {   "id": "desaussure",
-            "label": "de Saussure"
-        }, {
-            "id": "cantor",
+        {   "id": "cantor",
             "label": "Cantor"
         }, {
             "id": "kant",
             "label": "Kant"
+        }, {
+            "id": "hilbert",
+            "label": "Hilbert"
         }, {
             "id": "rumelhart",
             "label": "Rumelhart"
@@ -15,14 +15,14 @@ data = {
             "id": "kayeestes",
             "label": "Kaye Estes"
         }, {
-            "id": "hilbert",
-            "label": "Hilbert"
-        }, {
             "id": "darwin",
             "label": "Darwin"
         }, {
             "id": "gibbs",
             "label": "Gibbs"
+        }, {
+            "id": "Boas",
+            "label": "Boas"
         }, {
             "id": "herbart",
             "label": "Herbart"
@@ -57,9 +57,6 @@ data = {
             "id": "wundt",
             "label": "Wundt"
         }, {
-            id: "boas",
-            label: "Boas"
-        }, {
             "id": "stumpf",
             "label": "Stumpf"
         }, {
@@ -68,10 +65,8 @@ data = {
         }, {
             "id": "kulpe",
             "label": "Külpe"
-        }, {
-            "id": "de saussure",
-            "label": "de Saussure"
-        }, {
+        },
+        {
             "id": "titchener",
             "label": "Titchener"
         }, {
@@ -169,7 +164,7 @@ data = {
         "to": "kulpe"
     }, {
         "from": "wundt",
-        "to": "boas"
+        "to": "Boas"
     }, {
         "from": "brentano",
         "to": "freud"
@@ -179,12 +174,6 @@ data = {
     }, {
         "from": "herbart",
         "to": "husserl"
-    }, {
-        from: "wundt",
-        to: "Boas"
-    }, {
-        from: "brentano",
-        to: "freud"
     }, {
         "from": "herbart",
         "to": "lotze"
