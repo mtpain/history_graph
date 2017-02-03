@@ -1,6 +1,8 @@
 {
     "nodes": [
-        {
+        {   "id": "cantor",
+            "label": "Cantor"
+        }, {
             "id": "kant",
             "label": "Kant"
         }, {
@@ -136,6 +138,12 @@
     "edges": [{
         "from": "kant",
         "to": "herbart"
+    }, {
+        "from": "cantor",
+        "to": "russell"
+    }, {
+        "from": "cantor",
+        "to": "hilbert"
     }, {
         "from": "helmholtz",
         "to": "wundt"
