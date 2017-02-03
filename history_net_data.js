@@ -1,262 +1,311 @@
-// Todo:  Move to external database
-var result = {
-
-    nodes: [{
-            id: "kant",
-            label: "Kant",
+data = {
+    "nodes": [
+        {   "id": "cantor",
+            "label": "Cantor"
         }, {
-            id: "darwin",
-            label: "Darwin"
+            "id": "kant",
+            "label": "Kant"
         }, {
-            id: "herbart",
-            label: "Herbart"
+            "id": "rumelhart",
+            "label": "Rumelhart"
+        },{
+            "id": "kayeestes",
+            "label": "Kaye Estes"
         }, {
-            id: "lotze",
-            label: "Lotze"
+            "id": "hilbert",
+            "label": "Hilbert"
         }, {
-            id: "fechner",
-            label: "Fechner"
+            "id": "darwin",
+            "label": "Darwin"
         }, {
-            id: "weber",
-            label: "Weber"
+            "id": "gibbs",
+            "label": "Gibbs"
         }, {
-            id: "frege",
-            label: "Frege"
+            "id": "boas",
+            "label": "Boas"
+        },{
+            "id": "herbart",
+            "label": "Herbart"
         }, {
-            id: "helmholtz",
-            label: "Helmholtz"
+            "id": "lotze",
+            "label": "Lotze"
         }, {
-            id: "james",
-            label: "James"
+            "id": "fechner",
+            "label": "Fechner"
         }, {
-            id: "mach",
-            label: "Mach"
+            "id": "weber",
+            "label": "Weber"
         }, {
-            id: "brentano",
-            label: "Brentano"
+            "id": "frege",
+            "label": "Frege"
         }, {
-            id: "husserl",
-            label: "Husserl"
+            "id": "helmholtz",
+            "label": "Helmholtz"
         }, {
-            id: "wundt",
-            label: "Wundt"
+            "id": "james",
+            "label": "James"
         }, {
-            id: "stumpf",
-            label: "Stumpf"
+            "id": "mach",
+            "label": "Mach"
         }, {
-            id: "gestalt",
-            label: "Gestalt"
+            "id": "brentano",
+            "label": "Brentano"
         }, {
+            "id": "husserl",
+            "label": "Husserl"
+        }, {
+            "id": "wundt",
+            "label": "Wundt"
+        }, {
+<<<<<<< HEAD
             id: "kulpe",
             label: "Külpe"
         }, {
             id: "boas",
             label: "Boas"
+=======
+            "id": "stumpf",
+            "label": "Stumpf"
+        }, {
+            "id": "gestalt",
+            "label": "Gestalt"
+        }, {
+            "id": "kulpe",
+            "label": "Külpe"
+>>>>>>> origin/master
         },
         {
-            id: "titchener",
-            label: "Titchener"
+            "id": "titchener",
+            "label": "Titchener"
         }, {
-            id: "freud",
-            label: "Freud"
+            "id": "freud",
+            "label": "Freud"
         }, {
-            id: "russell",
-            label: "Russell"
+            "id": "russell",
+            "label": "Russell"
         }, {
-            id: "wittgenstein",
-            label: "Wittgenstein"
+            "id": "wittgenstein",
+            "label": "Wittgenstein"
         }, {
-            id: "hull",
-            label: "Hull"
+            "id": "hull",
+            "label": "Hull"
         }, {
-            id: "spence",
-            label: "Spence"
+            "id": "spence",
+            "label": "Spence"
         }, {
-            id: "boring",
-            label: "Boring"
+            "id": "boring",
+            "label": "Boring"
         }, {
-            id: "watson",
-            label: "Watson"
+            "id": "watson",
+            "label": "Watson"
         }, {
-            id: "skinner",
-            label: "Skinner"
+            "id": "skinner",
+            "label": "Skinner"
         }, {
-            id: "pavlov",
-            label: "Pavlov"
+            "id": "pavlov",
+            "label": "Pavlov"
         }, {
-            id: "turing",
-            label: "Turing"
+            "id": "turing",
+            "label": "Turing"
         }, {
-            id: "chomsky",
-            label: "Chomsky"
+            "id": "chomsky",
+            "label": "Chomsky"
         }, {
-            id: "ross",
-            label: "Ross"
+            "id": "ross",
+            "label": "Ross"
         }, {
-            id: "miller",
-            label: "Miller"
+            "id": "miller",
+            "label": "Miller"
         }, {
-            id: "stevens",
-            label: "Stevens"
+            "id": "stevens",
+            "label": "Stevens"
         }, {
-            id: "vonneumann",
-            label: "Von Neumann"
+            "id": "vonneumann",
+            "label": "Von Neumann"
         }, {
-            id: "munsterberg",
-            label: "Munsterberg"
+            "id": "munsterberg",
+            "label": "Munsterberg"
         }, {
-            id: "sapir",
-            label: "Sapir"
+            "id": "sapir",
+            "label": "Sapir"
         }, {
-            id: "newell",
-            label: "Newell"
+            "id": "newell",
+            "label": "Newell"
         }, {
-            id: "simon",
-            label: "Simon"
+            "id": "simon",
+            "label": "Simon"
         }, {
-            id: "wiener",
-            label: "Wiener"
+            "id": "wiener",
+            "label": "Wiener"
         }, {
-            id: "spivey",
-            label: "Spivey"
+            "id": "spivey",
+            "label": "Spivey"
         }, {
-            id: "berlyne",
-            label: "Berlyne"
+            "id": "berlyne",
+            "label": "Berlyne"
         }
     ],
 
-    edges: [{
-        from: "kant",
-        to: "herbart"
+    "edges": [{
+        "from": "kant",
+        "to": "herbart"
     }, {
-        from: "helmholtz",
-        to: "wundt"
+        "from": "cantor",
+        "to": "russell"
     }, {
-        from: "weber",
-        to: "fechner"
+        "from": "cantor",
+        "to": "hilbert"
     }, {
-        from: "mach",
-        to: "fechner"
+        "from": "helmholtz",
+        "to": "wundt"
     }, {
-        from: "wundt",
-        to: "kulpe"
+        "from": "hilbert",
+        "to": "husserl"
     }, {
+        "from": "weber",
+        "to": "fechner"
+    }, {
+        "from": "mach",
+        "to": "fechner"
+    }, {
+        "from": "wundt",
+        "to": "kulpe"
+    }, {
+        "from": "wundt",
+        "to": "boas"
+    }, {
+        "from": "brentano",
+        "to": "freud"
+    }, {
+        "from": "brentano",
+        "to": "husserl"
+    }, {
+        "from": "herbart",
+        "to": "husserl"
+    }, {
+<<<<<<< HEAD
         from: "wundt",
         to: "Boas"
     }, {
         from: "brentano",
         to: "freud"
+=======
+        "from": "herbart",
+        "to": "lotze"
+>>>>>>> origin/master
     }, {
-        from: "brentano",
-        to: "husserl"
+        "from": "fechner",
+        "to": "lotze"
     }, {
-        from: "herbart",
-        to: "husserl"
+        "from": "lotze",
+        "to": "stumpf"
     }, {
-        from: "herbart",
-        to: "lotze"
+        "from": "brentano",
+        "to": "stumpf"
     }, {
-        from: "fechner",
-        to: "lotze"
+        "from": "weber",
+        "to": "stumpf"
     }, {
-        from: "lotze",
-        to: "stumpf"
+        "from": "fechner",
+        "to": "stumpf"
     }, {
-        from: "brentano",
-        to: "stumpf"
+        "from": "wundt",
+        "to": "titchener"
     }, {
-        from: "weber",
-        to: "stumpf"
+        "from": "wundt",
+        "to": "husserl"
     }, {
-        from: "fechner",
-        to: "stumpf"
+        "from": "kulpe",
+        "to": "gestalt"
     }, {
-        from: "wundt",
-        to: "titchener"
+        "from": "stumpf",
+        "to": "gestalt"
     }, {
-        from: "wundt",
-        to: "husserl"
+        "from": "mach",
+        "to": "james"
     }, {
-        from: "kulpe",
-        to: "gestalt"
+        "from": "stumpf",
+        "to": "james"
     }, {
-        from: "stumpf",
-        to: "gestalt"
+        "from": "stumpf",
+        "to": "husserl"
     }, {
-        from: "mach",
-        to: "james"
+        "from": "hull",
+        "to": "spence"
     }, {
-        from: "stumpf",
-        to: "james"
+        "from": "pavlov",
+        "to": "hull"
     }, {
-        from: "stumpf",
-        to: "husserl"
+        "from": "pavlov",
+        "to": "watson"
     }, {
-        from: "hull",
-        to: "spence"
+        "from": "watson",
+        "to": "hull"
     }, {
-        from: "pavlov",
-        to: "hull"
+        "from": "hull",
+        "to": "berlyne"
     }, {
-        from: "pavlov",
-        to: "watson"
+        "from": "watson",
+        "to": "skinner"
     }, {
-        from: "watson",
-        to: "hull"
+        "from": "darwin",
+        "to": "skinner"
     }, {
-        from: "hull",
-        to: "berlyne"
+        "from": "darwin",
+        "to": "freud"
     }, {
-        from: "watson",
-        to: "skinner"
+        "from": "skinner",
+        "to": "chomsky"
     }, {
-        from: "darwin",
-        to: "skinner"
+        "from": "russell",
+        "to": "wittgenstein"
     }, {
-        from: "darwin",
-        to: "freud"
+        "from": "wittgenstein",
+        "to": "turing"
     }, {
-        from: "skinner",
-        to: "chomsky"
+        "from": "turing",
+        "to": "vonneumann"
     }, {
-        from: "russell",
-        to: "wittgenstein"
+        "from": "frege",
+        "to": "russell"
     }, {
-        from: "wittgenstein",
-        to: "turing"
+        "from": "gibbs",
+        "to": "spivey"
+    },{
+        "from": "frege",
+        "to": "wittgenstein"
     }, {
-        from: "turing",
-        to: "vonneumann"
+        "from": "fechner",
+        "to": "stevens"
     }, {
-        from: "frege",
-        to: "russell"
+        "from": "boring",
+        "to": "stevens"
     }, {
-        from: "frege",
-        to: "wittgenstein"
+        "from": "stevens",
+        "to": "miller"
     }, {
-        // I think...
-        from: "fechner",
-        to: "stevens"
+        "from": "newell",
+        "to": "miller"
     }, {
-        from: "boring",
-        to: "stevens"
+        "from": "simons",
+        "to": "miller"
     }, {
-        from: "stevens",
-        to: "miller"
+        "from": "wiener",
+        "to": "miller"
     }, {
-        from: "newell",
-        to: "miller"
+        "from": "chomsky",
+        "to": "miller"
     }, {
-        from: "simons",
-        to: "miller"
+        "from": "kayeestes",
+        "to": "rumelhart"
     }, {
-        from: "wiener",
-        to: "miller"
+        "from": "skinner",
+        "to": "kayeestes"
     }, {
-        from: "chomsky",
-        to: "miller"
+        "from": "rumelhart",
+        "to": "gibbs"
     }, {
-        from: "frege",
-        to: "husserl"
+        "from": "frege",
+        "to": "husserl"
     }]
 }
