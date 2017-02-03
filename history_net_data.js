@@ -78,7 +78,7 @@ data = {
 >>>>>>> origin/master
         },
         {
-            "id": "de saussure",
+            "id": "desaussure",
             "label": "de Saussure"
         }, {
             "id": "titchener",
