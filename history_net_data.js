@@ -253,6 +253,9 @@ data = {
         "from": "russell",
         "to": "wittgenstein"
     }, {
+        "from": "desaussure",
+        "to": "chomsky"
+    }, {
         "from": "wittgenstein",
         "to": "turing"
     }, {
