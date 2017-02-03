@@ -9,6 +9,12 @@
             "id": "hilbert",
             "label": "Hilbert"
         }, {
+            "id": "rumelhart",
+            "label": "Rumelhart"
+        },{
+            "id": "kayeestes",
+            "label": "Kaye Estes"
+        }{
             "id": "darwin",
             "label": "Darwin"
         }, {
@@ -273,6 +279,15 @@
     }, {
         "from": "chomsky",
         "to": "miller"
+    }, {
+        "from": "kayeestes",
+        "to": "rumelhart"
+    }, {
+        "from": "skinner",
+        "to": "kayeestes"
+    }, {
+        "from": "rumelhart",
+        "to": "gibbs"
     }, {
         "from": "frege",
         "to": "husserl"
