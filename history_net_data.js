@@ -15,7 +15,7 @@ data = {
             "id": "gibbs",
             "label": "Gibbs"
         }, {
-            "id": "Boas",
+            "id": "boas",
             "label": "Boas"
         },{
             "id": "herbart",
@@ -158,7 +158,7 @@ data = {
         "to": "kulpe"
     }, {
         "from": "wundt",
-        "to": "Boas"
+        "to": "boas"
     }, {
         "from": "brentano",
         "to": "freud"
