@@ -1,6 +1,9 @@
 data = {
     "nodes": [
-        {   "id": "cantor",
+        {   "id": "de saussure",
+            "label": "de Saussure"
+        }, {
+            "id": "cantor",
             "label": "Cantor"
         }, {
             "id": "kant",
@@ -75,6 +78,9 @@ data = {
 >>>>>>> origin/master
         },
         {
+            "id": "de saussure",
+            "label": "de Saussure"
+        }, {
             "id": "titchener",
             "label": "Titchener"
         }, {
