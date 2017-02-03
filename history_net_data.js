@@ -6,6 +6,12 @@ data = {
             "id": "kant",
             "label": "Kant"
         }, {
+            "id": "rumelhart",
+            "label": "Rumelhart"
+        },{
+            "id": "kayeestes",
+            "label": "Kaye Estes"
+        }, {
             "id": "hilbert",
             "label": "Hilbert"
         }, {
@@ -273,6 +279,15 @@ data = {
     }, {
         "from": "chomsky",
         "to": "miller"
+    }, {
+        "from": "kayeestes",
+        "to": "rumelhart"
+    }, {
+        "from": "skinner",
+        "to": "kayeestes"
+    }, {
+        "from": "rumelhart",
+        "to": "gibbs"
     }, {
         "from": "frege",
         "to": "husserl"
