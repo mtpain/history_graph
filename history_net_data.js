@@ -140,7 +140,7 @@ data = {
             "label": "Spivey"
         }, {
             "id": "prigogine",
-            "label": "prigogine"
+            "label": "Prigogine"
         }, {
             "id": "berlyne",
             "label": "Berlyne"
@@ -161,7 +161,7 @@ data = {
         "to": "wundt"
     }, {
         "from": "boltzmann",
-        "to": "prigogine"
+        "to": "Prigogine"
     }, {
         "from": "boltzmann",
         "to": "helmholtz"
