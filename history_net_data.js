@@ -40,6 +40,9 @@ data = {
             "id": "helmholtz",
             "label": "Helmholtz"
         }, {
+            "id": "boltzmann",
+            "label": "Boltzmann"
+        }, {
             "id": "james",
             "label": "James"
         }, {
@@ -153,6 +156,9 @@ data = {
     }, {
         "from": "helmholtz",
         "to": "wundt"
+    }, {
+        "from": "boltzmann",
+        "to": "helmholtz"
     }, {
         "from": "hilbert",
         "to": "husserl"
