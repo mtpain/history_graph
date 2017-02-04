@@ -9,7 +9,7 @@ data = {
         }, {
             "id": "rumelhart",
             "label": "Rumelhart"
-        },{
+        }, {
             "id": "kayeestes",
             "label": "Kaye Estes"
         }, {
@@ -18,6 +18,9 @@ data = {
         }, {
             "id": "darwin",
             "label": "Darwin"
+        }, {
+            "id": "dewey",
+            "label": "Dewey"
         }, {
             "id": "gibbs",
             "label": "Gibbs"
@@ -255,6 +258,9 @@ data = {
     }, {
         "from": "watson",
         "to": "hull"
+    }, {
+        "from": "james",
+        "to": "dewey"
     }, {
         "from": "hull",
         "to": "berlyne"
