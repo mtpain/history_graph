@@ -61,6 +61,9 @@ data = {
             id: "boas",
             label: "Boas"
         }, {
+            "id": "peirce",
+            "label": "Peirce"
+         }, { 
             "id": "stumpf",
             "label": "Stumpf"
         }, {
@@ -228,6 +231,9 @@ data = {
     }, {
         "from": "mach",
         "to": "james"
+    }, {
+        "from": "james",
+        "to": "Peirce"    
     }, {
         "from": "stumpf",
         "to": "james"
