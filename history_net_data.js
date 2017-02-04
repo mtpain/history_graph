@@ -232,8 +232,11 @@ data = {
         "from": "mach",
         "to": "james"
     }, {
-        "from": "james",
-        "to": "Peirce"    
+        "from": "peirce",
+        "to": "james" 
+    }, {  
+        "from": "darwin",
+        "to": "peirce"   
     }, {
         "from": "stumpf",
         "to": "james"
