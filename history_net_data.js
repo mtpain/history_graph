@@ -153,6 +153,12 @@ data = {
         }, {
             "id": "bain",
             "label": "Bain"
+        }, {
+            "id": "hebb",
+            "label": "Hebb"
+        }, {
+            "id": "mcp",
+            "label": "McClulloch and Pitts"
         }
     ],
 
@@ -333,5 +339,14 @@ data = {
     }, {
         "from": "frege",
         "to": "husserl"
+    }, {
+        "from": "bain",
+        "to": "hebb"
+    }, {
+        "from": "hebb",
+        "to": "mcp"
+    }, {
+        "from": "mcp",
+        "to": "rumelhart"
     }]
 }
