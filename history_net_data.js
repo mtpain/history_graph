@@ -61,8 +61,8 @@ data = {
             "id": "wundt",
             "label": "Wundt"
         }, {
-            id: "boas",
-            label: "Boas"
+            "id": "boas",
+            "label": "Boas"
         }, {
             "id": "peirce",
             "label": "Peirce"
@@ -205,11 +205,11 @@ data = {
         "from": "herbart",
         "to": "husserl"
     }, {
-        from: "wundt",
-        to: "Boas"
+        "from": "wundt",
+        "to": "Boas"
     }, {
-        from: "brentano",
-        to: "freud"
+        "from": "brentano",
+        "to": "freud"
     }, {
         "from": "herbart",
         "to": "lotze"
