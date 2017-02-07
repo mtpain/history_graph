@@ -1,10 +1,17 @@
 data = {
     "nodes": [
-        {   "id": "cantor",
+        {
+            "id": "cantor",
             "label": "Cantor"
         }, {
             "id": "kant",
             "label": "Kant"
+        }, {
+            "id": "rumelhart",
+            "label": "Rumelhart"
+        }, {
+            "id": "kayeestes",
+            "label": "Kaye Estes"
         }, {
             "id": "hilbert",
             "label": "Hilbert"
@@ -12,12 +19,12 @@ data = {
             "id": "darwin",
             "label": "Darwin"
         }, {
+            "id": "dewey",
+            "label": "Dewey"
+        }, {
             "id": "gibbs",
             "label": "Gibbs"
         }, {
-            "id": "boas",
-            "label": "Boas"
-        },{
             "id": "herbart",
             "label": "Herbart"
         }, {
@@ -36,6 +43,9 @@ data = {
             "id": "helmholtz",
             "label": "Helmholtz"
         }, {
+            "id": "boltzmann",
+            "label": "Boltzmann"
+        }, {
             "id": "james",
             "label": "James"
         }, {
@@ -51,6 +61,12 @@ data = {
             "id": "wundt",
             "label": "Wundt"
         }, {
+            "id": "boas",
+            "label": "Boas"
+        }, {
+            "id": "peirce",
+            "label": "Peirce"
+         }, { 
             "id": "stumpf",
             "label": "Stumpf"
         }, {
@@ -59,8 +75,10 @@ data = {
         }, {
             "id": "kulpe",
             "label": "Külpe"
-        },
-        {
+        },{
+            "id": "desaussure",
+            "label": "de Saussure"
+        }, {
             "id": "titchener",
             "label": "Titchener"
         }, {
@@ -127,8 +145,20 @@ data = {
             "id": "spivey",
             "label": "Spivey"
         }, {
+            "id": "prigogine",
+            "label": "Prigogine"
+        }, {
             "id": "berlyne",
             "label": "Berlyne"
+        }, {
+            "id": "bain",
+            "label": "Bain"
+        }, {
+            "id": "hebb",
+            "label": "Hebb"
+        }, {
+            "id": "mcp",
+            "label": "McClulloch and Pitts"
         }
     ],
 
@@ -144,6 +174,12 @@ data = {
     }, {
         "from": "helmholtz",
         "to": "wundt"
+    }, {
+        "from": "boltzmann",
+        "to": "prigogine"
+    }, {
+        "from": "boltzmann",
+        "to": "helmholtz"
     }, {
         "from": "hilbert",
         "to": "husserl"
@@ -168,6 +204,12 @@ data = {
     }, {
         "from": "herbart",
         "to": "husserl"
+    }, {
+        "from": "wundt",
+        "to": "Boas"
+    }, {
+        "from": "brentano",
+        "to": "freud"
     }, {
         "from": "herbart",
         "to": "lotze"
@@ -202,6 +244,12 @@ data = {
         "from": "mach",
         "to": "james"
     }, {
+        "from": "peirce",
+        "to": "james" 
+    }, {  
+        "from": "darwin",
+        "to": "peirce"   
+    }, {
         "from": "stumpf",
         "to": "james"
     }, {
@@ -220,6 +268,9 @@ data = {
         "from": "watson",
         "to": "hull"
     }, {
+        "from": "james",
+        "to": "dewey"
+    }, {
         "from": "hull",
         "to": "berlyne"
     }, {
@@ -237,6 +288,9 @@ data = {
     }, {
         "from": "russell",
         "to": "wittgenstein"
+    }, {
+        "from": "desaussure",
+        "to": "chomsky"
     }, {
         "from": "wittgenstein",
         "to": "turing"
@@ -274,7 +328,25 @@ data = {
         "from": "chomsky",
         "to": "miller"
     }, {
+        "from": "kayeestes",
+        "to": "rumelhart"
+    }, {
+        "from": "skinner",
+        "to": "kayeestes"
+    }, {
+        "from": "rumelhart",
+        "to": "gibbs"
+    }, {
         "from": "frege",
         "to": "husserl"
+    }, {
+        "from": "bain",
+        "to": "hebb"
+    }, {
+        "from": "hebb",
+        "to": "mcp"
+    }, {
+        "from": "mcp",
+        "to": "rumelhart"
     }]
 }
